@@ -1,4 +1,4 @@
-def sum_numbers(*numbers: tuple) -> tuple:
+def sum_numbers(*numbers: tuple) -> float:
     """Sum numbers"""
     return sum(numbers)
 
