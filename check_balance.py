@@ -16,3 +16,10 @@ balance = 0
 #withdrawal = variable2
 balance = balance + deposit - withdrawal
 print("Total balance is",  balance)
+
+
+import sys
+
+def exit():
+    # clean up resources
+    sys.exit()
